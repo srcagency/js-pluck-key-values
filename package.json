@@ -1,0 +1,29 @@
+{
+	"name": "pluck-key-values",
+	"version": "0.0.1",
+	"description": "Pluck the values of an array of keys from an object (order is preserved)",
+	"main": "index.js",
+	"keywords": [
+		"pluck",
+		"values"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/srcagency/js-pluck-key-values"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"author": {
+		"name": "Thomas Jensen",
+		"email": "thomas@src.agency",
+		"url": "http://src.agency"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"tape": "^2.13.4"
+	}
+}
