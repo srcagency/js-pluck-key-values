@@ -17,8 +17,6 @@ test([ f.usingDynamic, f.usingMap, f.usingFixed ], 1000000, hash, keys);
 function test( imps, times ){
 	var args = Array.prototype.slice.call(arguments, 2);
 
-	console.log(args);
-
 	for (var i = 0;i < imps.length;i++)
 		time(i + ': ' + imps[i].name, imps[i], times, args);
 }
